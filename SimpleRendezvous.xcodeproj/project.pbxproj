@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D8C2D00231519DE67D5E10F /* Pods_SimpleRendezvousUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126CDE5F0EC5BF30FF9A5AA8 /* Pods_SimpleRendezvousUITests.framework */; };
+		80340165DE32AD9D8155D0D4 /* Pods_SimpleRendezvous.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39FF8875EC4255DDBF2EDF5E /* Pods_SimpleRendezvous.framework */; };
+		829B244B38BD112B7B2F9CAE /* Pods_SimpleRendezvousTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87C448997E6F053DF132EBD /* Pods_SimpleRendezvousTests.framework */; };
+		D31DB7C01E107BCB00ACB982 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31DB7BF1E107BCB00ACB982 /* AppDelegate.swift */; };
+		D31DB7C21E107BCB00ACB982 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31DB7C11E107BCB00ACB982 /* ViewController.swift */; };
+		D31DB7C51E107BCB00ACB982 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D31DB7C31E107BCB00ACB982 /* Main.storyboard */; };
+		D31DB7C71E107BCB00ACB982 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D31DB7C61E107BCB00ACB982 /* Assets.xcassets */; };
+		D31DB7CA1E107BCB00ACB982 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D31DB7C81E107BCB00ACB982 /* LaunchScreen.storyboard */; };
+		D31DB7D51E107BCB00ACB982 /* SimpleRendezvousTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31DB7D41E107BCB00ACB982 /* SimpleRendezvousTests.swift */; };
+		D31DB7E01E107BCB00ACB982 /* SimpleRendezvousUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31DB7DF1E107BCB00ACB982 /* SimpleRendezvousUITests.swift */; };
+		D31DB7EF1E107BE400ACB982 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31DB7EE1E107BE400ACB982 /* MapKit.framework */; };
+		D346CDCA1E14A581000C3EF2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D346CDC91E14A581000C3EF2 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D31DB7D11E107BCB00ACB982 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D31DB7B41E107BCB00ACB982 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D31DB7BB1E107BCB00ACB982;
+			remoteInfo = SimpleRendezvous;
+		};
+		D31DB7DC1E107BCB00ACB982 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D31DB7B41E107BCB00ACB982 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D31DB7BB1E107BCB00ACB982;
+			remoteInfo = SimpleRendezvous;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		126CDE5F0EC5BF30FF9A5AA8 /* Pods_SimpleRendezvousUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleRendezvousUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17F22C50476C7C5DA2847C4F /* Pods-SimpleRendezvousTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleRendezvousTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleRendezvousTests/Pods-SimpleRendezvousTests.release.xcconfig"; sourceTree = "<group>"; };
+		18AA2A3E570900E76B32198A /* Pods-SimpleRendezvous.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleRendezvous.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleRendezvous/Pods-SimpleRendezvous.debug.xcconfig"; sourceTree = "<group>"; };
+		39FF8875EC4255DDBF2EDF5E /* Pods_SimpleRendezvous.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleRendezvous.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DEB06A1416F8FD550A75727 /* Pods-SimpleRendezvousTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleRendezvousTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleRendezvousTests/Pods-SimpleRendezvousTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B5282EAB840AFDA20438F9B /* Pods-SimpleRendezvous.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleRendezvous.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleRendezvous/Pods-SimpleRendezvous.release.xcconfig"; sourceTree = "<group>"; };
+		AC7CB73487C256AD2A872193 /* Pods-SimpleRendezvousUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleRendezvousUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleRendezvousUITests/Pods-SimpleRendezvousUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D31DB7BC1E107BCB00ACB982 /* SimpleRendezvous.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleRendezvous.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D31DB7BF1E107BCB00ACB982 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D31DB7C11E107BCB00ACB982 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D31DB7C41E107BCB00ACB982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D31DB7C61E107BCB00ACB982 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D31DB7C91E107BCB00ACB982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D31DB7CB1E107BCB00ACB982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D31DB7D01E107BCB00ACB982 /* SimpleRendezvousTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleRendezvousTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D31DB7D41E107BCB00ACB982 /* SimpleRendezvousTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleRendezvousTests.swift; sourceTree = "<group>"; };
+		D31DB7D61E107BCB00ACB982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D31DB7DB1E107BCB00ACB982 /* SimpleRendezvousUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleRendezvousUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D31DB7DF1E107BCB00ACB982 /* SimpleRendezvousUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleRendezvousUITests.swift; sourceTree = "<group>"; };
+		D31DB7E11E107BCB00ACB982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D31DB7EE1E107BE400ACB982 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D31DB7F01E107EFD00ACB982 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D346CDC91E14A581000C3EF2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		DD6FA33C5655069928E6F93C /* Pods-SimpleRendezvousUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleRendezvousUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleRendezvousUITests/Pods-SimpleRendezvousUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F87C448997E6F053DF132EBD /* Pods_SimpleRendezvousTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleRendezvousTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D31DB7B91E107BCB00ACB982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31DB7EF1E107BE400ACB982 /* MapKit.framework in Frameworks */,
+				80340165DE32AD9D8155D0D4 /* Pods_SimpleRendezvous.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31DB7CD1E107BCB00ACB982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829B244B38BD112B7B2F9CAE /* Pods_SimpleRendezvousTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31DB7D81E107BCB00ACB982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D8C2D00231519DE67D5E10F /* Pods_SimpleRendezvousUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F6B275176C4E6AE030495F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18AA2A3E570900E76B32198A /* Pods-SimpleRendezvous.debug.xcconfig */,
+				5B5282EAB840AFDA20438F9B /* Pods-SimpleRendezvous.release.xcconfig */,
+				4DEB06A1416F8FD550A75727 /* Pods-SimpleRendezvousTests.debug.xcconfig */,
+				17F22C50476C7C5DA2847C4F /* Pods-SimpleRendezvousTests.release.xcconfig */,
+				AC7CB73487C256AD2A872193 /* Pods-SimpleRendezvousUITests.debug.xcconfig */,
+				DD6FA33C5655069928E6F93C /* Pods-SimpleRendezvousUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D31DB7B31E107BCB00ACB982 = {
+			isa = PBXGroup;
+			children = (
+				D31DB7BE1E107BCB00ACB982 /* SimpleRendezvous */,
+				D31DB7D31E107BCB00ACB982 /* SimpleRendezvousTests */,
+				D31DB7DE1E107BCB00ACB982 /* SimpleRendezvousUITests */,
+				D31DB7BD1E107BCB00ACB982 /* Products */,
+				D31DB7ED1E107BE400ACB982 /* Frameworks */,
+				0F6B275176C4E6AE030495F9 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D31DB7BD1E107BCB00ACB982 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D31DB7BC1E107BCB00ACB982 /* SimpleRendezvous.app */,
+				D31DB7D01E107BCB00ACB982 /* SimpleRendezvousTests.xctest */,
+				D31DB7DB1E107BCB00ACB982 /* SimpleRendezvousUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D31DB7BE1E107BCB00ACB982 /* SimpleRendezvous */ = {
+			isa = PBXGroup;
+			children = (
+				D346CDC91E14A581000C3EF2 /* GoogleService-Info.plist */,
+				D31DB7BF1E107BCB00ACB982 /* AppDelegate.swift */,
+				D31DB7C11E107BCB00ACB982 /* ViewController.swift */,
+				D31DB7C31E107BCB00ACB982 /* Main.storyboard */,
+				D31DB7C61E107BCB00ACB982 /* Assets.xcassets */,
+				D31DB7C81E107BCB00ACB982 /* LaunchScreen.storyboard */,
+				D31DB7CB1E107BCB00ACB982 /* Info.plist */,
+			);
+			path = SimpleRendezvous;
+			sourceTree = "<group>";
+		};
+		D31DB7D31E107BCB00ACB982 /* SimpleRendezvousTests */ = {
+			isa = PBXGroup;
+			children = (
+				D31DB7D41E107BCB00ACB982 /* SimpleRendezvousTests.swift */,
+				D31DB7D61E107BCB00ACB982 /* Info.plist */,
+			);
+			path = SimpleRendezvousTests;
+			sourceTree = "<group>";
+		};
+		D31DB7DE1E107BCB00ACB982 /* SimpleRendezvousUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D31DB7DF1E107BCB00ACB982 /* SimpleRendezvousUITests.swift */,
+				D31DB7E11E107BCB00ACB982 /* Info.plist */,
+			);
+			path = SimpleRendezvousUITests;
+			sourceTree = "<group>";
+		};
+		D31DB7ED1E107BE400ACB982 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D31DB7F01E107EFD00ACB982 /* CoreLocation.framework */,
+				D31DB7EE1E107BE400ACB982 /* MapKit.framework */,
+				39FF8875EC4255DDBF2EDF5E /* Pods_SimpleRendezvous.framework */,
+				F87C448997E6F053DF132EBD /* Pods_SimpleRendezvousTests.framework */,
+				126CDE5F0EC5BF30FF9A5AA8 /* Pods_SimpleRendezvousUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D31DB7BB1E107BCB00ACB982 /* SimpleRendezvous */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D31DB7E41E107BCB00ACB982 /* Build configuration list for PBXNativeTarget "SimpleRendezvous" */;
+			buildPhases = (
+				557D41A9074C51ED6EB3B05E /* [CP] Check Pods Manifest.lock */,
+				D31DB7B81E107BCB00ACB982 /* Sources */,
+				D31DB7B91E107BCB00ACB982 /* Frameworks */,
+				D31DB7BA1E107BCB00ACB982 /* Resources */,
+				34CDDB31C21FAB384FB71543 /* [CP] Embed Pods Frameworks */,
+				F1CF34FDC8A1114AE5DAE9F2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleRendezvous;
+			productName = SimpleRendezvous;
+			productReference = D31DB7BC1E107BCB00ACB982 /* SimpleRendezvous.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D31DB7CF1E107BCB00ACB982 /* SimpleRendezvousTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D31DB7E71E107BCB00ACB982 /* Build configuration list for PBXNativeTarget "SimpleRendezvousTests" */;
+			buildPhases = (
+				75E551A808F8FB1118EBD182 /* [CP] Check Pods Manifest.lock */,
+				D31DB7CC1E107BCB00ACB982 /* Sources */,
+				D31DB7CD1E107BCB00ACB982 /* Frameworks */,
+				D31DB7CE1E107BCB00ACB982 /* Resources */,
+				816DA3447B93BC6E91F8C054 /* [CP] Embed Pods Frameworks */,
+				614199CCD0F005593231A78C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D31DB7D21E107BCB00ACB982 /* PBXTargetDependency */,
+			);
+			name = SimpleRendezvousTests;
+			productName = SimpleRendezvousTests;
+			productReference = D31DB7D01E107BCB00ACB982 /* SimpleRendezvousTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D31DB7DA1E107BCB00ACB982 /* SimpleRendezvousUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D31DB7EA1E107BCB00ACB982 /* Build configuration list for PBXNativeTarget "SimpleRendezvousUITests" */;
+			buildPhases = (
+				389702A23FD0FA3496028A33 /* [CP] Check Pods Manifest.lock */,
+				D31DB7D71E107BCB00ACB982 /* Sources */,
+				D31DB7D81E107BCB00ACB982 /* Frameworks */,
+				D31DB7D91E107BCB00ACB982 /* Resources */,
+				8FC8631880DD15E8682D4037 /* [CP] Embed Pods Frameworks */,
+				B81CCACCCF3D112E8330D9B9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D31DB7DD1E107BCB00ACB982 /* PBXTargetDependency */,
+			);
+			name = SimpleRendezvousUITests;
+			productName = SimpleRendezvousUITests;
+			productReference = D31DB7DB1E107BCB00ACB982 /* SimpleRendezvousUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D31DB7B41E107BCB00ACB982 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Masaaki Uno";
+				TargetAttributes = {
+					D31DB7BB1E107BCB00ACB982 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3C9BUVNG4D;
+						ProvisioningStyle = Automatic;
+					};
+					D31DB7CF1E107BCB00ACB982 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D31DB7BB1E107BCB00ACB982;
+					};
+					D31DB7DA1E107BCB00ACB982 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D31DB7BB1E107BCB00ACB982;
+					};
+				};
+			};
+			buildConfigurationList = D31DB7B71E107BCB00ACB982 /* Build configuration list for PBXProject "SimpleRendezvous" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D31DB7B31E107BCB00ACB982;
+			productRefGroup = D31DB7BD1E107BCB00ACB982 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D31DB7BB1E107BCB00ACB982 /* SimpleRendezvous */,
+				D31DB7CF1E107BCB00ACB982 /* SimpleRendezvousTests */,
+				D31DB7DA1E107BCB00ACB982 /* SimpleRendezvousUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D31DB7BA1E107BCB00ACB982 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31DB7CA1E107BCB00ACB982 /* LaunchScreen.storyboard in Resources */,
+				D346CDCA1E14A581000C3EF2 /* GoogleService-Info.plist in Resources */,
+				D31DB7C71E107BCB00ACB982 /* Assets.xcassets in Resources */,
+				D31DB7C51E107BCB00ACB982 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31DB7CE1E107BCB00ACB982 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31DB7D91E107BCB00ACB982 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34CDDB31C21FAB384FB71543 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleRendezvous/Pods-SimpleRendezvous-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		389702A23FD0FA3496028A33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		557D41A9074C51ED6EB3B05E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		614199CCD0F005593231A78C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleRendezvousTests/Pods-SimpleRendezvousTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75E551A808F8FB1118EBD182 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		816DA3447B93BC6E91F8C054 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleRendezvousTests/Pods-SimpleRendezvousTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FC8631880DD15E8682D4037 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleRendezvousUITests/Pods-SimpleRendezvousUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B81CCACCCF3D112E8330D9B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleRendezvousUITests/Pods-SimpleRendezvousUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1CF34FDC8A1114AE5DAE9F2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleRendezvous/Pods-SimpleRendezvous-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D31DB7B81E107BCB00ACB982 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31DB7C21E107BCB00ACB982 /* ViewController.swift in Sources */,
+				D31DB7C01E107BCB00ACB982 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31DB7CC1E107BCB00ACB982 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31DB7D51E107BCB00ACB982 /* SimpleRendezvousTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31DB7D71E107BCB00ACB982 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D31DB7E01E107BCB00ACB982 /* SimpleRendezvousUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D31DB7D21E107BCB00ACB982 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D31DB7BB1E107BCB00ACB982 /* SimpleRendezvous */;
+			targetProxy = D31DB7D11E107BCB00ACB982 /* PBXContainerItemProxy */;
+		};
+		D31DB7DD1E107BCB00ACB982 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D31DB7BB1E107BCB00ACB982 /* SimpleRendezvous */;
+			targetProxy = D31DB7DC1E107BCB00ACB982 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D31DB7C31E107BCB00ACB982 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D31DB7C41E107BCB00ACB982 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D31DB7C81E107BCB00ACB982 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D31DB7C91E107BCB00ACB982 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D31DB7E21E107BCB00ACB982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D31DB7E31E107BCB00ACB982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D31DB7E51E107BCB00ACB982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18AA2A3E570900E76B32198A /* Pods-SimpleRendezvous.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3C9BUVNG4D;
+				INFOPLIST_FILE = SimpleRendezvous/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.smaphonia.SimpleRendezvous;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D31DB7E61E107BCB00ACB982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B5282EAB840AFDA20438F9B /* Pods-SimpleRendezvous.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3C9BUVNG4D;
+				INFOPLIST_FILE = SimpleRendezvous/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.smaphonia.SimpleRendezvous;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D31DB7E81E107BCB00ACB982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DEB06A1416F8FD550A75727 /* Pods-SimpleRendezvousTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimpleRendezvousTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.smaphonia.SimpleRendezvousTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleRendezvous.app/SimpleRendezvous";
+			};
+			name = Debug;
+		};
+		D31DB7E91E107BCB00ACB982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17F22C50476C7C5DA2847C4F /* Pods-SimpleRendezvousTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimpleRendezvousTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.smaphonia.SimpleRendezvousTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleRendezvous.app/SimpleRendezvous";
+			};
+			name = Release;
+		};
+		D31DB7EB1E107BCB00ACB982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC7CB73487C256AD2A872193 /* Pods-SimpleRendezvousUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SimpleRendezvousUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.smaphonia.SimpleRendezvousUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SimpleRendezvous;
+			};
+			name = Debug;
+		};
+		D31DB7EC1E107BCB00ACB982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD6FA33C5655069928E6F93C /* Pods-SimpleRendezvousUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SimpleRendezvousUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.smaphonia.SimpleRendezvousUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SimpleRendezvous;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D31DB7B71E107BCB00ACB982 /* Build configuration list for PBXProject "SimpleRendezvous" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D31DB7E21E107BCB00ACB982 /* Debug */,
+				D31DB7E31E107BCB00ACB982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D31DB7E41E107BCB00ACB982 /* Build configuration list for PBXNativeTarget "SimpleRendezvous" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D31DB7E51E107BCB00ACB982 /* Debug */,
+				D31DB7E61E107BCB00ACB982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D31DB7E71E107BCB00ACB982 /* Build configuration list for PBXNativeTarget "SimpleRendezvousTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D31DB7E81E107BCB00ACB982 /* Debug */,
+				D31DB7E91E107BCB00ACB982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D31DB7EA1E107BCB00ACB982 /* Build configuration list for PBXNativeTarget "SimpleRendezvousUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D31DB7EB1E107BCB00ACB982 /* Debug */,
+				D31DB7EC1E107BCB00ACB982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D31DB7B41E107BCB00ACB982 /* Project object */;
+}
